@@ -62,20 +62,6 @@ The debug APK is written to:
 android/app/build/outputs/apk/debug/app-debug.apk
 ```
 
-## Galaxy S9 setup
-
-1. Enable Developer options and USB debugging on the Galaxy S9.
-2. Connect the phone and confirm it appears in `adb devices`.
-3. Install the app with `npm run android` or:
-
-```sh
-adb install -r android/app/build/outputs/apk/debug/app-debug.apk
-```
-
-4. Open Sympl, select allowed apps, and tap `Turn On`.
-5. In Sympl, tap `Home Settings`, then choose Sympl as the default Home app. On Samsung phones this is usually under Settings > Apps > Default apps > Home app.
-6. Press the phone's Home button to return to the simplified Sympl launcher.
-
 ## Checks
 
 ```sh
